@@ -4,6 +4,7 @@
     font-family: "Open Sans", sans-serif;
     font-size: 21px;
 }
+/****************First Section******************/
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,12 +25,66 @@ ul li a {
 text-decoration: none;
 }
 .common-btn {
-    background-color: blue;
-    color: aliceblue;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 550;
     padding: 15px 50px;
     border-radius: 6px;
     border: none;
+    transition-duration: 0.4s;
+}
+ .common-btn:hover {
+background-color: black;
+color: white;
 }
 .menu-top {
     font-family: 'Open Sans', sans-serif;
 }
+/*****************Second  Section***********************************/
+.hero-banner {
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    overflow: hidden;
+}
+.banner-images {
+    position: absolute;
+    inset: 0;
+    z-index: 0; 
+    background: linear-gradient(50,  255, 100, 0.75);
+}
+.banner-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.banner-content-title {
+    color: #ffffff;
+    font-size: 2.5rem ;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.banner-content-title em {
+    font-style: italic;
+    font-weight: 6;
+    font-size: 2.5rem;
+}
+.banner-content p{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+
