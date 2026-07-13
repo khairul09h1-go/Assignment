@@ -91,7 +91,27 @@ color: white;
 }
 /**************Third Section**********************/
 
-*speaker-section {
+.speaker-section {
     max-width: 1200px;
     margin: 0 auto;
+}
+.speaker-section-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    color:black;
+}
+.speaker-section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.speaker-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background:#ffffff ;
 }
