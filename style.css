@@ -115,3 +115,34 @@ color: white;
     overflow: hidden;
     background:#ffffff ;
 }
+.speaker-card img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0.5rem;
+}
+.speaker-container  span {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: black;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+.speaker-container h3 {
+    font-size: 0.90rem;
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+}
+.speaker-container p{
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+/***************w3SCHOOL -  GRID COLUM SIZE FOR ALL SAME 1FR**************************/
+/* @media (max-width: 1200px) { 
+    .speaker-section-grid{
+        grid-template-columns:  1fr;
+    }
+}  */
+  
