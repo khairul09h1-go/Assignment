@@ -89,4 +89,9 @@ color: white;
 .hero-banner button{
     margin-top: 200px;
 }
+/**************Third Section**********************/
 
+*speaker-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
